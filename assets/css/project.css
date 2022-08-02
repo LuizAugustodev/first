@@ -1,0 +1,40 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    color: var(--white-color);
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 2rem;
+    padding-top: 2rem;
+}
+
+.title__project {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-bottom: .3rem solid var(--light-green);
+}
+
+.img__project {
+    height: 300px;
+    border-radius: 2rem;
+}
+
+.list__project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1025px) {
+    .project {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .list__project {
+        gap: 1rem;
+    }
+}

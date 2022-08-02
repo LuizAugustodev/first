@@ -1,0 +1,51 @@
+.about {
+    display: flex;
+    height: 100vh;
+    background-color: var(--bg-color2);
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.info__about {
+    color: var(--white-color);
+    width: 40%;
+    text-align:justify;
+}
+
+.img__info {
+    height: 30rem;
+    border-radius: 3rem;
+    filter: grayscale(10);
+    transition: all 0.6s ease 0s;
+}
+
+.img__info:hover {
+    filter: none;
+    border: .2rem solid var(--light-green);
+}
+
+.title__about {
+    font-size: 1.5rem;
+    border-bottom: .3rem solid var(--light-green);
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.info__about__p {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        justify-content: center;
+    }
+
+    .info__about {
+        width: 80vw;
+    }
+
+    .img__info {
+        display: none;
+    }
+}

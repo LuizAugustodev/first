@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 30vh;
+    height: 20vh;
+    background-color: var(--bg-footer-color);
+    color: var(--white-color);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+@media screen and (max-width: 480px) {
+    .hidden {
+        display: none;
+    }
+}

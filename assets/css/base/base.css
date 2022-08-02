@@ -1,0 +1,27 @@
+:root {
+    --font-familly: 'Roboto Mono',sans-serif;
+    --logo-size: 5rem;
+    --logo-emoji-size: 12rem;
+    --bg-color-nav: rgba(94, 207, 201, 0.425);
+    --bg-color: #161616;
+    --bg-color2: #131313;
+    --bg-color3: #111111ee;
+    --bg-footer-color: #33837fbe;
+    --light-green: #0fb;
+    --white-color: #f0eaeae3;
+    --border-color: #f0eaea73;
+    --button-color1: rgba(0, 255, 187, 1);
+    --button-color2: rgba(0, 255, 187, 0.6);
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-familly);
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container {    
+    display: flex;
+}
+
